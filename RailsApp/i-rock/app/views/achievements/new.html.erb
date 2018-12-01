@@ -1,0 +1,5 @@
+<%= simple_form_for @achievement do |f| %>
+    <%= f.input :title %>
+    <%= f.input :description %>
+    <%= f.input :privacy, collection: Hash[Achievement.privacies.map] {|k,v| [k.split('').first.capitalize, k]}%>
+<% end %>
