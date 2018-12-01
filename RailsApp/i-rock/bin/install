@@ -1,0 +1,2 @@
+Could not find generator 'rspec'. Maybe you meant 'model', 'assets' or 'rspec:job'
+Run `rails generate --help` for more options.
